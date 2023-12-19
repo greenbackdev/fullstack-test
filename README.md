@@ -18,7 +18,7 @@ yarn dev
 
 ## Exercise
 
-The `/data` directory contains some JSON data files. You can get familiar with their schema before starting the exercise.
+The `/data` directory contains some JSON data files. You can get familiar with the schema before starting the exercise.
 
 - `data/indicators.json` contains the description of our indicators and indexes.
 - `data/dependencies.json` contains the dependencies between our indexes, indicators, and measures.
