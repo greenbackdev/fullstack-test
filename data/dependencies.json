@@ -5,9 +5,7 @@
       "climateImpact",
       "biodiversityImpact",
       "yieldImpact"
-    ],
-    "type": "global_score",
-    "dependencies_type": "index"
+    ]
   },
   "waterImpact": {
     "dependencies": [
@@ -16,9 +14,6 @@
       "soil_health_denitrification_potential",
       "nitrate_ammonification_nitrification"
     ],
-    "type": "index",
-    "dependencies_type": "indicator",
-    "operation": "geometric mean",
     "weights": {
       "soil_health_denitrification_potential": 10,
       "nitrate_ammonification_nitrification": 10,
@@ -37,25 +32,16 @@
       "Pb_tot_AR",
       "Zn_tot_AR",
       "Hg_tot_AR"
-    ],
-    "type": "index",
-    "dependencies_type": "indicator",
-    "operation": "geometric average of the minimal value of the normalised indicators and of the geometric average of the other normalised indicators"
+    ]
   },
   "Salinization": {
-    "dependencies": ["EC", "SAR", "ESP"],
-    "type": "indicator",
-    "dependencies_type": "measures",
-    "operation": "triplet space partition"
+    "dependencies": ["EC", "SAR", "ESP"]
   },
   "nitrate_ammonification_nitrification": {
     "dependencies": [
       "soil_health_nitrate_ammonification_potential",
       "soil_health_nitrification_potential"
-    ],
-    "type": "indicator",
-    "dependencies_type": "measures",
-    "operation": "2D optimum score"
+    ]
   },
   "yieldImpact": {
     "dependencies": [
@@ -68,9 +54,6 @@
       "soil_health_bacterial_diversity",
       "soil_health_oxygen_availability"
     ],
-    "type": "index",
-    "dependencies_type": "indicator",
-    "operation": "geometric mean",
     "weights": {
       "soil_health_oxygen_availability": 6.5,
       "soil_health_bacterial_diversity": 13.5,
@@ -82,21 +65,12 @@
       "swhc": 17.0
     }
   },
-  "TOC_CHN": {
-    "dependencies": ["TOC_CHN", "perc_clay_sed"],
-    "type": "indicator",
-    "dependencies_type": "measures",
-    "operation": "parametrized ascending sigmoid"
-  },
   "climateImpact": {
     "dependencies": [
       "TOC_CHN",
       "Cstable_TOC_re6_ratio",
       "soil_health_denitrification_potential"
     ],
-    "type": "index",
-    "dependencies_type": "indicator",
-    "operation": "geometric mean",
     "weights": {
       "soil_health_denitrification_potential": 30,
       "TOC_CHN": 25,
@@ -113,9 +87,6 @@
       "soil_health_oxygen_availability",
       "nitrate_ammonification_nitrification"
     ],
-    "type": "index",
-    "dependencies_type": "indicator",
-    "operation": "geometric mean",
     "weights": {
       "soil_health_oxygen_availability": 13.5,
       "soil_health_bacterial_diversity": 22.5,
