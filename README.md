@@ -20,12 +20,12 @@ yarn dev
 
 The `/data` directory contains some JSON data files. You can get familiar with the schema before starting the exercise.
 
-- `data/indicators.json` contains the description of our indicators and indexes.
-- `data/dependencies.json` contains the dependencies between our indexes, indicators, and measures.
+- `data/descriptions.json` contains the description and other information about an item.
+- `data/dependencies.json` contains the dependencies between items.
 
 You will be asked to write a small application that will:
 
-- have a search bar that allows searching for an item (index, indicator)
+- have a search bar that allows searching for an item
 - once an item is selected, display its description and dependencies
 - when clicking on a dependency, show its page.
 
