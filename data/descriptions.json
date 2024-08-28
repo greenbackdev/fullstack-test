@@ -8,45 +8,12 @@
     "unit": "mS/m",
     "category": "Exchangeable Ions"
   },
-  "swhc": {
-    "code": "swhc",
-    "index": "Erosion",
-    "type": "Indicator",
-    "name": "Réserve utile maximale",
-    "description": "Cet indicateur calcule la capacité de rétention maximale en eau du sol, c’est-à-dire la fraction d’eau du sol disponible pour les végétaux lorsque le sol est à la capacité au champ.\nIl est exprimé en mm d’eau par cm de sol ou en mm d’eau sur une épaisseur donnée de sol.",
-    "unit": "mm/cm",
-    "category": "Pedology"
-  },
   "yieldImpact": {
     "code": "yieldImpact",
     "index": "Index",
     "type": "Index",
     "name": "Fertilité",
     "description": "Cet indice évalue le niveau de fertilité et le potentiel de production durable du sol.",
-    "unit": "-"
-  },
-  "Cr_tot_AR": {
-    "code": "Cr_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Chrome total",
-    "description": "Cet indicateur est une mesure de la teneur en chrome total du sol.",
-    "unit": "mg/kg DM"
-  },
-  "soil_health_denitrification_potential": {
-    "code": "soil_health_denitrification_potential",
-    "index": "Biodiversity",
-    "type": "Indicator",
-    "name": "Potentiel de dénitrification",
-    "description": "Cet indicateur mesure le potentiel de transformation du nitrate en protoxyde d’azote par les bactéries et archées du sol. L’objectif est de limiter ce processus afin de limiter la perte de nitrate et sa transformation en un gaz à effet de serre.\nCet indicateur n'a pas d'unité.",
-    "unit": "-"
-  },
-  "soilImpact": {
-    "code": "soilImpact",
-    "index": "Index",
-    "type": "Index",
-    "name": "Sol",
-    "description": "Cet indice mesure la régénération du sol ainsi que sa stabilité structurale.",
     "unit": "-"
   },
   "pH_in_H2O": {
@@ -75,14 +42,6 @@
     "unit": "%",
     "category": "Pedology"
   },
-  "rating": {
-    "code": "rating",
-    "index": "Index",
-    "type": "Index",
-    "name": "Score Genesis",
-    "description": "Le score Genesis représente l'état de santé général de vos sols",
-    "unit": "-"
-  },
   "CEC_BaCl": {
     "code": "CEC_BaCl",
     "index": "Context",
@@ -110,14 +69,6 @@
     "unit": "%",
     "category": "Pedology"
   },
-  "soil_health_nitrate_ammonification_potential": {
-    "code": "soil_health_nitrate_ammonification_potential",
-    "index": "Biodiversity",
-    "type": "Indicator",
-    "name": "Potentiel d'ammonification du nitrate",
-    "description": "L'indicateur de potentiel de d'ammonification du nitrate est basé sur le nombre de gènes détectés pour le processus de d'ammonification du nitrate versus le nombre de gènes essentiels détectés chez toutes les bactéries et les archées. Cet indicateur inclut à la fois les bactéries et les archées, qui sont des organismes unicellulaires, classifiées comme procaryotes. Cet indicateur n'a pas d'unité.",
-    "unit": "- "
-  },
   "SAR": {
     "code": "SAR",
     "index": "Pollution",
@@ -134,14 +85,6 @@
     "description": "Cet indice mesure la diversité microbienne et des facteurs affectant la qualité de l’habitat.",
     "unit": "-"
   },
-  "Cd_tot_AR": {
-    "code": "Cd_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Cadmium total",
-    "description": "Cet indicateur est une mesure de la teneur en cadmium total du sol.",
-    "unit": "mg/kg DM"
-  },
   "perc_sand_sed": {
     "code": "perc_sand_sed",
     "index": "Context",
@@ -151,14 +94,6 @@
     "unit": "%",
     "category": "Pedology"
   },
-  "Zn_tot_AR": {
-    "code": "Zn_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Zinc total",
-    "description": "Cet indicateur est une mesure de la teneur en zinc total du sol.",
-    "unit": "mg/kg DM"
-  },
   "waterImpact": {
     "code": "waterImpact",
     "index": "Index",
@@ -166,30 +101,6 @@
     "name": "Eau",
     "description": "Cet indice évalue indirectement la dynamique (circulation et rétention) de l’eau et sa qualité (risque de contamination).",
     "unit": "-"
-  },
-  "Cstable_TOC_re6_ratio": {
-    "code": "Cstable_TOC_re6_ratio",
-    "index": "Carbon",
-    "type": "Indicator",
-    "name": "Ratio carbone organique stable sur carbone organique total",
-    "description": "Cet indicateur mesure la part de carbone organique stable par rapport au carbone organique total. Le carbone organique stable est la part de carbone organique avec un temps de résidence dans les sols de plus de cent ans. \nIl est exprimé en %.",
-    "unit": "%"
-  },
-  "Pb_tot_AR": {
-    "code": "Pb_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Plomb total",
-    "description": "Cet indicateur est une mesure de la teneur en plomb total du sol.",
-    "unit": "mg/kg DM"
-  },
-  "Cactive_AMG_re6_corrCHN": {
-    "code": "Cactive_AMG_re6_corrCHN",
-    "index": "Carbon",
-    "type": "Indicator",
-    "name": "Carbone organique actif",
-    "description": "Cet indicateur mesure la teneur en carbone organique actif, qui est la part de carbone organique dont le temps de résidence dans les sols est entre 0 et 40 ans, en climat tempéré. C’est la fraction facilement décomposable par les organismes. \nIl est exprimé en g/kg de matière sèche.",
-    "unit": "g/kg DM"
   },
   "pollution": {
     "code": "pollution",
@@ -207,14 +118,6 @@
     "description": "Cet indice évalue indirectement les échanges de gaz à effet de serre entre le sol et l’atmosphère.",
     "unit": "-"
   },
-  "soil_health_bacterial_diversity": {
-    "code": "soil_health_bacterial_diversity",
-    "index": "Biodiversity",
-    "type": "Indicator",
-    "name": "Diversité bactérienne",
-    "description": "Cet indicateur mesure la diversité taxonomique des bactéries et des archées, en prenant en compte la richesse (nombre) et l’équitabilité (abondance relative) des espèces. Cet indicateur n'a pas d'unité.",
-    "unit": "-"
-  },
   "Mg_exch_BaCl": {
     "code": "Mg_exch_BaCl",
     "index": "Context",
@@ -224,14 +127,6 @@
     "unit": "mg/kg DM",
     "category": "Exchangeable Ions"
   },
-  "TOC_CHN": {
-    "code": "TOC_CHN",
-    "index": "Carbon",
-    "type": "Indicator",
-    "name": "Carbone organique total",
-    "description": "Cet indicateur mesure la teneur en carbone organique total du sol qui est un composant essentiel de la fertilité des sols et de la qualité de l'environnement. Une teneur en carbone organique faible induit une dégradation de nombreuses fonctions du sol et une moindre résilience suite à une perturbation.\nIl est exprimé en g/kg de matière sèche.",
-    "unit": "g/kg DM"
-  },
   "TOC_CHN_TN_CHN_ratio": {
     "code": "TOC_CHN_TN_CHN_ratio",
     "index": "Context",
@@ -240,14 +135,6 @@
     "description": "Rapport massique du contenu Carbone / Azote.",
     "unit": "-",
     "category": "Physico-chemical"
-  },
-  "erosion": {
-    "code": "erosion",
-    "index": "Erosion",
-    "type": "Indicator",
-    "name": "Risque érosif estimé",
-    "description": "Cet indicateur estime la perte de sol par érosion hydrique modélisée par le modèle RUSLE en prenant en compte les pratiques agricoles. \nIl est exprimé en tonne de sol perdu / ha / an.",
-    "unit": "t/ha/year"
   },
   "P_olsen": {
     "code": "P_olsen",
@@ -267,14 +154,6 @@
     "unit": "g/kg DM",
     "category": "Physico-chemical"
   },
-  "biodiversity": {
-    "code": "biodiversity",
-    "index": "Index",
-    "type": "Index",
-    "name": "Biodiversité",
-    "description": "L’habitat sol est-il favorable aux activités des organismes qu’il contient et au développement de la biodiversité ?",
-    "unit": "-"
-  },
   "impactRating": {
     "code": "impactRating",
     "index": "Index",
@@ -282,22 +161,6 @@
     "name": "Score synthétique",
     "description": "Score Genesis d'impact environmental ",
     "unit": "-"
-  },
-  "N_NO3_G": {
-    "code": "N_NO3_G",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Azote sous forme de nitrates",
-    "description": "Cet indicateur correspond à la mesure de la teneur d'azote contenu dans le nitrates (NO3-) des sols.",
-    "unit": "mg/kg DM"
-  },
-  "soil_health_oxygen_availability": {
-    "code": "soil_health_oxygen_availability",
-    "index": "Biodiversity",
-    "type": "Indicator",
-    "name": "Disponibilité en oxygène",
-    "description": "Cet indicateur mesure indirectement l’aération du sol via la mesure de gènes bactériens (et archées) codant des processus aérobiques et anaérobiques. Son unité est en pourcentage.",
-    "unit": "%"
   },
   "Na_exch_BaCl": {
     "code": "Na_exch_BaCl",
@@ -316,14 +179,6 @@
     "description": "Indicateur de salinisation basé sur une mesure du taux de salinité du sol.",
     "unit": "-"
   },
-  "Ni_tot_AR": {
-    "code": "Ni_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Nickel total",
-    "description": "Cet indicateur est une mesure de la teneur en nickel total du sol.",
-    "unit": "mg/kg DM"
-  },
   "slopes": {
     "code": "slopes",
     "index": "Context",
@@ -333,44 +188,12 @@
     "unit": "deg",
     "category": "Pedology"
   },
-  "Hg_tot_AR": {
-    "code": "Hg_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Mercure total",
-    "description": "Cet indicateur est une mesure de la teneur en mercure total du sol.",
-    "unit": "mg/kg DM"
-  },
   "nitrate_ammonification_nitrification": {
     "code": "nitrate_ammonification_nitrification",
     "index": "Biodiversity",
     "type": "Indicator",
     "name": "L'équilibre entre potentiel de nitrification et d'ammonification du nitrate",
     "description": "Cet indicateur mesure l'équilibre entre le potentiel de nitrification et d’ammonification du nitrate par les bactéries et archées du sol. L’objectif est d’avoir un équilibre de ces deux potentiels dans les sols.\nCet indicateur n'a pas d'unité.",
-    "unit": "-"
-  },
-  "carbon": {
-    "code": "carbon",
-    "index": "Index",
-    "type": "Index",
-    "name": "Carbone",
-    "description": "L'Unité de Sol stocke-t-elle du carbone ?  La teneur en carbone est-elle suffisante et équilibrée ? ",
-    "unit": "-"
-  },
-  "Cu_tot_AR": {
-    "code": "Cu_tot_AR",
-    "index": "Pollution",
-    "type": "Indicator",
-    "name": "Cuivre total",
-    "description": "Cet indicateur est une mesure de la teneur en cuivre total du sol.",
-    "unit": "mg/kg DM"
-  },
-  "soil_health_nitrification_potential": {
-    "code": "soil_health_nitrification_potential",
-    "index": "Biodiversity",
-    "type": "Indicator",
-    "name": "Potentiel de nitrification",
-    "description": "L'indicateur de potentiel de nitrification est basé sur le nombre de gènes détectés pour le processus de nitrification versus le nombre de gènes essentiels détectés chez toutes les bactéries et les archées. Cet indicateur inclut à la fois les bactéries et les archées, qui sont des organismes unicellulaires, classifiées comme procaryotes. Cet indicateur n'a pas d'unité.",
     "unit": "-"
   }
 }
