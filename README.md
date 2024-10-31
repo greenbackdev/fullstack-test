@@ -26,7 +26,8 @@ The `/data` directory contains some JSON data files. You can get familiar with t
 
 An item value can be either a number given by the file `data/values.json` if it has no dependency,
 or it is equal to the weighted mean of some other item values (listed in `data/dependencies.json`).
-If weights are not specified, they are assumed to be equal to 1.
+
+If weights are not specified in dependencies, they are assumed to be equal to 1 (value is the mean of its dependencies).
 
 In this exercise, you will be asked to write a single page application that will:
 
